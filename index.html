@@ -477,16 +477,6 @@ const App = () => {
     <div className="phone-frame">
       <Stars />
 
-      {/* Status bar */}
-      <div className="status-bar">
-        <span>9:41</span>
-        <div style={{display:'flex',gap:6,alignItems:'center'}}>
-          <svg width="15" height="11" viewBox="0 0 15 11" fill="white"><rect x="0" y="4" width="3" height="7" rx="1"/><rect x="4" y="2.5" width="3" height="8.5" rx="1"/><rect x="8" y="1" width="3" height="10" rx="1"/><rect x="12" y="0" width="3" height="11" rx="1"/></svg>
-          <svg width="15" height="11" viewBox="0 0 20 14" fill="none" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M1 1a18 18 0 0118 0"/><path d="M4 5a13 13 0 0112 0"/><path d="M7 9a8 8 0 016 0"/><circle cx="10" cy="13" r="1" fill="white" stroke="none"/></svg>
-          <svg width="24" height="12" viewBox="0 0 24 12" fill="none"><rect x="0.5" y="0.5" width="20" height="11" rx="3.5" stroke="white" strokeOpacity="0.5"/><rect x="2" y="2" width="15" height="8" rx="2" fill="white"/><path d="M22 4.5v3a2 2 0 000-3z" fill="white" fillOpacity="0.4"/></svg>
-        </div>
-      </div>
-
       {/* Screen content */}
       <div style={{position:'relative',zIndex:1,height:'calc(100% - 50px)',overflowY:'auto',overflowX:'hidden'}}>
         {screen === 'login'
